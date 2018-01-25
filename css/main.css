@@ -1,0 +1,147 @@
+
+html {
+    box-sizing: border-box;
+    background-color: #e6ffe6;
+    background: url('../images/field.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    margin: auto 0;
+}
+
+#main h1{
+    width: 26rem;
+    height: 7rem;
+    border: .45rem solid #003399;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem auto 0;
+    font-family: Ubuntu;
+    font-style: italic;
+    font-size: 2.5rem;
+    color: #FF0000;
+    background-color: #FFFFFF;
+}
+
+
+#scoreBoard{
+    margin: 1.5rem auto;
+    width: 26rem;
+    height: 4.5rem;
+    text-align: center;
+}
+
+.stats {
+    display: inline-block;
+    height: 3.5rem;
+    border: 1px solid black;
+    margin: .1rem 0;
+    background-color: #FFFFFF;
+}
+
+#home, #clock, #visitor{
+    width: 7rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.35rem;
+    font-weight: bold;
+    padding-left: .25rem;
+    border: .25rem solid #003399;
+    border-radius: 10px;
+    color: #FF0000;
+}
+
+#afc, #nfc {
+    height: 8rem;
+    width: 8rem;
+    position: relative;
+}
+
+#nfc{
+    float: left;
+    margin-left: 1rem;
+}
+
+#afc{
+    float: right;
+    margin-right: 1rem;
+
+}
+
+ #quiz {
+    height: 15rem;
+    width: 33rem;
+    border: .45rem solid #003399;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    color: #FF0000;
+}
+
+#quiz p {
+    font-family: Sans-Serif;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: .1rem;
+}
+
+input{
+    margin-left: 1.5rem;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    font-size: 1.4rem
+
+}
+form{
+    font-size: 1.25rem;
+    letter-spacing: .1rem;
+}
+ .option{
+    font-family: Sans-Serif;
+    margin-right: .65rem;
+    margin-left: 0.35rem;
+
+}
+
+#submission{
+    height: 4rem;
+    width: 8rem;
+    margin: 1.25rem auto;
+/*     border: 1px solid black; */
+    text-align: center;
+
+}
+
+#submitButton{
+    height: 3rem;
+    width: 7.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: .45rem solid #003399;
+    background-color: #FFFFFF;
+    color: #FF0000 ;
+    text-transform: uppercase;
+    border-radius: 10px;
+    letter-spacing: 1px
+}
+
+#submitButton:hover{
+    background-color: #003399;
+    color: #FFFFFF;
+    border: .45rem solid #FF0000;
+}
+
+
+
